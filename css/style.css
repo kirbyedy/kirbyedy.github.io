@@ -56,10 +56,6 @@
 				margin-bottom: 0;
 			}
 
-.sadrzaj {
-
-}
-
 
 /* Lajna */
 
@@ -106,89 +102,13 @@ hr.line-dark {
 	}
 
 
-/* Glavna */
-
-	.glavna-bg {
-		-moz-transition: opacity 0.5s ease-out;
-		-webkit-transition: opacity 0.5s ease-out;
-		-ms-transition: opacity 0.5s ease-out;
-		transition: opacity 0.5s ease-out;
-		background-attachment: fixed,							fixed;
-		background-position: top left,						center center;
-		background-repeat: repeat,							none;
-		background-size: auto,							cover;
-		height: 100%;
-		left: 0;
-		opacity: 0;
-		position: fixed;
-		top: 0;
-		width: 100%;
-		z-index: -1;
-	}
-
-		.glavna-bg.active {
-			opacity: 1;
-		}
-
-
-	.glavna {
-		position: relative;
-	}
-
-	* Box */
+/* Box */
 
 	*, *:before, *:after {
 		-moz-box-sizing: border-box;
 		-webkit-box-sizing: border-box;
 		box-sizing: border-box;
 	}
-
-/* aj nanovo */
-
-.kontenjer {
-	width: 100%;
-	max-width: 560px;
-	padding: 3em 2.5em 4em 2.5em ;
-	background: rgba(255, 255, 255, 0.95);
-	margin-left: auto;
-	margin-right: auto;
-}
-
-		#header .kontenjer {
-			background: rgba(255, 255, 255, 0.95);
-			bottom: 0;
-			left: 50%;
-			margin-left: -17.5em;
-			padding: 2.5em;
-			position: absolute;
-			margin-right: auto;
-		}
-
-			#header .kontenjer > :last-child {
-				margin-bottom: 0;
-			}
-
-.sadrzaj {
-
-}
-
-
-/* Lajna */
-
-hr.line-white {
-    border: 0;
-    height: 2px;
-    background-image: linear-gradient(to right, rgba(255, 255, 255, 0), rgba(255, 255, 255, 0.75), rgba(255, 255, 255, 0));
-    margin-top: 2em;
-}
-
-hr.line-dark {
-    border: 0;
-    height: 2px;
-    background-image: linear-gradient(to right, rgba(97, 104, 107, 0), rgba(97, 104, 107, 0.75), rgba(97, 104, 107, 0));
-    margin-bottom: 2em;
-}
-
 
 
 /* Glavna */
@@ -778,7 +698,7 @@ header.sredina {
 
 /* Large */
 
-	@media screen and (max-width: 1680px) {
+	@media screen and (max-width: 4000px) {
 
 		/* Basic */
 
