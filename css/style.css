@@ -37,13 +37,13 @@
 	width: 100%;
 	max-width: 50%;
 	padding: 3em 2.5em 4em 2.5em ;
-	background: rgba(255, 255, 255, 0.95);
+	background: rgba(255, 255, 255, 0.8);
 	margin-left: 25%;
 	margin-right: auto;
 }
 
 		#header .kontenjer {
-			background: rgba(255, 255, 255, 0.95);
+			background: rgba(255, 255, 255, 0.8);
 			bottom: 0;
 			/*max-width: 50%;*/
 			padding: 2.5em;
@@ -488,6 +488,12 @@ header.sredina {
 								font-size: 2em;
 							}
 
+							.kontenjer {
+								max-width: 100%;
+								margin-left: auto;
+								background: rgba(255, 255, 255, 0.8);
+							}
+
 							#header header p {
 								font-weight: 400;
 							}
@@ -532,6 +538,7 @@ header.sredina {
 						.kontenjer {
 							max-width: 100%;
 							margin-left: auto;
+							background: rgba(255, 255, 255, 0.8);
 						}
 						p {
 							font-size: 0.8em;
